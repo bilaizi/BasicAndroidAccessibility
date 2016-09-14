@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.basicandroidaccessibility"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 24
         jackOptions{
             enabled true

@@ -35,8 +35,10 @@ public class ContentLabelingActivity extends AppCompatActivity {
     private void updateImageButton() {
         if (mPlaying) {
             mPlayPauseToggleImageView.setImageResource(R.drawable.ic_play);
+            mPlayPauseToggleImageView.setContentDescription(getString(R.string.play));
         } else {
             mPlayPauseToggleImageView.setImageResource(R.drawable.ic_pause);
+            mPlayPauseToggleImageView.setContentDescription(getString(R.string.pause));
         }
     }
 }
